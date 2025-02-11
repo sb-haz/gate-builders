@@ -83,41 +83,8 @@ export default function Home() {
         </div>
       </div >
 
-      {/* Featured Products */}
-      < div id="products" className="py-24 bg-white" >
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-gray-900">Featured Products</h2>
-          <div className="grid md:grid-cols-4 gap-8">
-            {[
-              { name: "Building Materials", img: "products_1.jpg" },
-              { name: "Plumbing Supplies", img: "products_2.png" },
-              { name: "Tools & Equipment", img: "products_3.jpg" },
-              { name: "Landscaping", img: "products_4.jpg" }
-            ].map((product, index) => (
-              <div key={index} className="group">
-                <div className="relative h-64 mb-4 overflow-hidden rounded-lg">
-                  <Image
-                    src={`/${product.img}`}
-                    alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                    fill
-                  />
-                </div>
-                <h3 className="text-xl font-semibold mb-2 text-gray-900">{product.name}</h3>
-                <Link
-                  href="/contact-us"
-                  className="text-[#f3bf14] hover:text-[#f3bf14]/80 inline-flex items-center font-medium transition-colors duration-200"
-                >
-                  Enquire <ChevronRight className="w-4 h-4 ml-1" />
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div >
-
       {/* Services Section */}
-      < div id="services" className="py-24 bg-gray-50" >
+      < div id="services" className="py-24 bg-white" >
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12 text-gray-900">Our Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -156,6 +123,39 @@ export default function Home() {
                     Enquire <ChevronRight className="w-4 h-4 ml-1" />
                   </Link>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div >
+
+      {/* Featured Products */}
+      < div id="products" className="py-24 bg-gray-50" >
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-4xl font-bold mb-12 text-gray-900">Featured Products</h2>
+          <div className="grid md:grid-cols-4 gap-8">
+            {[
+              { name: "Building Materials", img: "products_1.jpg" },
+              { name: "Plumbing Supplies", img: "products_2.png" },
+              { name: "Tools & Equipment", img: "products_3.jpg" },
+              { name: "Landscaping", img: "products_4.jpg" }
+            ].map((product, index) => (
+              <div key={index} className="group">
+                <div className="relative h-64 mb-4 overflow-hidden rounded-lg">
+                  <Image
+                    src={`/${product.img}`}
+                    alt={product.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+                    fill
+                  />
+                </div>
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">{product.name}</h3>
+                <Link
+                  href="/contact-us"
+                  className="text-[#f3bf14] hover:text-[#f3bf14]/80 inline-flex items-center font-medium transition-colors duration-200"
+                >
+                  Enquire <ChevronRight className="w-4 h-4 ml-1" />
+                </Link>
               </div>
             ))}
           </div>
