@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,8 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gate Builders & Plumbers Merchants",
-  description: "Builders and Builders Merchants",
+  title: "Gate Builders & Plumbers Merchants | Building Supplies West Midlands",
+  description: "Leading builders merchants in Oldbury providing building materials, plumbing supplies and construction services since 2015. Visit our West Midlands store.",
+  keywords: "builders merchants, building supplies, plumbing supplies, construction materials, Oldbury, West Midlands",
+  robots: "index, follow",
   icons: {
     icon: "/favicon.png",
   }
@@ -36,25 +39,28 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center h-20">
               <Link href="/" className="flex items-center">
-                <img
+                <Image
                   src="/logo.png"
                   alt="Gate Builders Logo"
                   className="h-16 w-auto"
+                  width={150}
+                  height={64}
+                  priority
                 />
               </Link>
               <div className="hidden md:flex space-x-12">
-                <a
+                <Link
                   href="/#products"
                   className="text-gray-800 font-medium hover:text-[#f3bf14] transition-colors duration-200 cursor-pointer"
                 >
                   Products
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/#services"
                   className="text-gray-800 font-medium hover:text-[#f3bf14] transition-colors duration-200 cursor-pointer"
                 >
                   Services
-                </a>
+                </Link>
                 <Link
                   href="/careers"
                   className="text-gray-800 font-medium hover:text-[#f3bf14] transition-colors duration-200"
@@ -79,10 +85,12 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-4 gap-12">
               <div>
-                <img
+                <Image
                   src="/logo-footer.png"
                   alt="Gate Builders Logo"
                   className="h-16 w-auto mb-6"
+                  width={150}
+                  height={64}
                 />
                 <p className="text-gray-300">Your trusted partner in construction and building materials since 2015.</p>
               </div>

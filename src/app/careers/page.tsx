@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image";
 import { X } from 'lucide-react';
 import { useState } from 'react';
 
@@ -69,15 +70,16 @@ export default function Careers() {
             {/* Hero Section */}
             <div className="relative h-[40vh]">
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-800/70 z-10"></div>
-                <img
-                    src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3"
+                <Image
+                    src="/careers.jpg"
                     alt="Careers"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="absolute inset-0 object-cover"
+                    fill
                 />
                 <div className="relative z-20 max-w-7xl mx-auto px-4 h-full flex flex-col justify-center">
                     <h1 className="text-5xl font-bold text-white mb-6">Join Our Team</h1>
                     <p className="text-xl text-white max-w-2xl">
-                        Build your career with one of West Midlands leading builders merchants
+                        Build your career with one of West Midlands leading builders, and builders merchants
                     </p>
                 </div>
             </div>

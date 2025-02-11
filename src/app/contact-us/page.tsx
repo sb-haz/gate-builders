@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Phone, MapPin, Clock } from 'lucide-react';
 
 export default function ContactUs() {
@@ -6,10 +7,11 @@ export default function ContactUs() {
             {/* Hero Section */}
             <div className="relative h-[40vh]">
                 <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 to-gray-800/70 z-10"></div>
-                <img
-                    src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3"
+                <Image
+                    src="/contact-us.jpg"
                     alt="Contact Us"
-                    className="absolute inset-0 w-full h-full object-cover"
+                    className="absolute inset-0 object-cover"
+                    fill
                 />
                 <div className="relative z-20 max-w-7xl mx-auto px-4 h-full flex flex-col justify-center">
                     <h1 className="text-5xl font-bold text-white mb-6">Contact Us</h1>
