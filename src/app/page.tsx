@@ -40,7 +40,7 @@ export default function Home() {
             Building Excellence, Delivering Quality
           </h1>
           <p className="text-xl text-white mb-8 max-w-2xl">
-            West Midlands premier builders merchant, providing expert solutions for all your construction needs
+            West Midlands premier builders and builders merchant, providing expert solutions for all your construction needs
           </p>
           <div className="flex gap-4">
             <Link
