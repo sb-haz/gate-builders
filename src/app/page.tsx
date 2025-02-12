@@ -5,19 +5,19 @@ import { Phone, MapPin, Clock, ChevronRight, Star } from 'lucide-react';
 export default function Home() {
   const testimonials = [
     {
-      name: "Donu Miah",
+      name: "Didur Miah",
       role: "Homeowner",
       image: "men_7.jpg",
       text: "Gate Builders provided excellent service for my home extension. Their expertise and quality materials made all the difference."
     },
     {
-      name: "Umme Begum",
+      name: "Fahima Begum",
       role: "Property Developer",
       image: "women_13.jpg",
       text: "As a property developer, I rely on consistent quality and service. Gate Builders delivers every time."
     },
     {
-      name: "Mizanur Rahman",
+      name: "Mozomul Rahman",
       role: "Contractor",
       image: "men_48.jpg",
       text: "The best builders merchant in West Midlands. Great prices and always helpful staff."
