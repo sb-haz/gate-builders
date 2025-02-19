@@ -22,40 +22,42 @@ export default function Careers() {
             title: "Bricklayer",
             type: "Full-time",
             location: "West Midlands",
-            salary: "£38,700",
-            description: "We are looking for experienced bricklayers to join our growing team. You will be responsible for laying bricks, blocks and other building materials to construct and repair walls, foundations, and other structures.",
+            salary: "£31,000",
+            description: "We are seeking experienced bricklayers to join our team. Working 37.5 hours per week, you will lay bricks, pre-cut stone, and concrete block structures to construct or repair walls, partitions, arches, fireplaces, chimneys, and other building structures. This position requires working under the direction of the Manager and collaborating with a small team.",
             requirements: [
-                "Minimum 3-4 years experience in bricklaying or similar construction work",
-                "Experience working on residential and commercial projects",
-                "Knowledge of construction site safety practices",
-                "Reliable and punctual"
+                "3-4 years previous work experience as Bricklayer",
+                "Ability to read and interpret blueprints and specifications",
+                "Experience with mixing and applying mortar using trowels",
+                "Proficient in using tools such as levels, jointers, and hammers",
+                "Knowledge of safety procedures and regulations"
             ]
         },
         {
             title: "Bricklayer",
             type: "Full-time",
             location: "West Midlands",
-            salary: "£38,700",
-            description: "We are seeking bricklayers with proven experience to join our team. The role involves constructing walls, laying blocks, and working on various building projects across the West Midlands area.",
+            salary: "£31,000",
+            description: "We are seeking experienced bricklayers to join our team. Working 37.5 hours per week, you will lay bricks, pre-cut stone, and concrete block structures to construct or repair walls, partitions, arches, fireplaces, chimneys, and other building structures. This position requires working under the direction of the Manager and collaborating with a small team.",
             requirements: [
-                "Minimum 3-4 years experience in bricklaying or similar construction work",
-                "Experience working on residential and commercial projects",
-                "Knowledge of construction site safety practices",
-                "Reliable and punctual"
+                "3-4 years previous work experience as Bricklayer",
+                "Ability to read and interpret blueprints and specifications",
+                "Experience with mixing and applying mortar using trowels",
+                "Proficient in using tools such as levels, jointers, and hammers",
+                "Knowledge of safety procedures and regulations"
             ]
         },
         {
-            title: "Experienced Roofer",
+            title: "Customer Service Manager",
             type: "Full-time",
             location: "West Midlands",
-            salary: "£39,950",
-            description: "Seeking an experienced roofer for residential and commercial projects. You will handle various roofing jobs including repairs, installations and maintenance.",
+            salary: "£38,800",
+            description: "We are looking for an experienced Customer Service Manager to work 37.5 hours per week. You will be responsible for managing customer interactions, overseeing customer service policies, and ensuring high levels of customer satisfaction across our operations.",
             requirements: [
-                "Minimum 3 years roofing experience",
-                "Experience with different roofing materials and techniques",
-                "Valid CSCS card",
-                "Working at heights certification",
-                "Strong attention to detail"
+                "3-4 years experience as customer service manager in construction industry or similar environment",
+                "Proven experience in managing and training customer service staff",
+                "Strong problem-solving skills for handling escalated complaints",
+                "Experience with customer service performance metrics",
+                "Excellent communication and leadership skills"
             ]
         }
     ];
